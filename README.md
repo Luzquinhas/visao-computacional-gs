@@ -1,4 +1,4 @@
-# 🧱 kiln_cnn — Detecção de Fornos de Tijolo em Imagens de Satélite
+# kiln_cnn — Detecção de Fornos de Tijolo em Imagens de Satélite
 
 Classificação de *tiles* de satélite (SentinelKilnDB) para detectar fornos de
 tijolo / minas ilegais, usando **duas CNNs construídas do zero** (sem modelos
@@ -37,7 +37,7 @@ A conversão para classificação é automática:
 Tiles com vários fornos recebem o **tipo mais frequente**. Há também o modo
 binário (`--task binary`): apenas `none` / `kiln`.
 
-> ⚠️ **Desbalanceamento:** `CFCBK` é raríssimo (~3% dos positivos). O treino usa
+>  **Desbalanceamento:** `CFCBK` é raríssimo (~3% dos positivos). O treino usa
 > amostragem balanceada por padrão (`WeightedRandomSampler`); ainda assim, vale
 > justificar no relatório eventuais quedas de recall nessa classe.
 
