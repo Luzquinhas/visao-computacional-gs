@@ -9,6 +9,11 @@ problema é tratado como **classificação de tile** — muito mais viável de t
 do zero. O pacote é inspirado nas convenções do [TorchGeo](../torchgeo) (camadas
 *dataset → modelo → treino*, *sample* como `dict` `{"image", "label"}`).
 
+**Integrantes:** 
+- Lucas Rodrigues da Silva | RM: 98344
+- Juan Pinheiro de França  | RM: 552202 
+- Kaiky Alvaro de Miranda  | RM: 98118
+
 ## Estrutura
 
 ```
